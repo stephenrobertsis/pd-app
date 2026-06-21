@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(which node *)",
+      "Bash(ls \"/c/Users/steph/AppData/Local/Programs/\" 2>/dev/null || echo \"no programs dir\")",
+      "PowerShell(winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_create_mcp",
+      "mcp__Claude_in_Chrome__get_page_text"
+    ]
+  }
+}
