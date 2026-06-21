@@ -15,7 +15,7 @@ app.get('/api/health', (req, res) => {
 })
 
 // Catch-all: send React app for client-side routing
-app.get('*', (req, res) => {
+app.get('/{*path}', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/index.html'))
 })
 
